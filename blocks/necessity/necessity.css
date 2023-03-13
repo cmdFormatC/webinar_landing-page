@@ -1,0 +1,7 @@
+.necessity {
+    width: 100%;
+    background-color: #09182B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

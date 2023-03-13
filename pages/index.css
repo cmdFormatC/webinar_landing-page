@@ -1,0 +1,38 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/root/root.css);
+
+
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__date-pic/header__date-pic.css);
+@import url(../blocks/header/__date/header__date.css);
+@import url(../blocks/header/marketplace-logo/header__marketplace-logo.css);
+@import url(../blocks/header/marketplace-logos/header__marketplace-logos.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__date-description/header__date-description.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button-text/header__button-text.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/webinar-description/webinar-description.css);
+@import url(../blocks/webinar-description/__paragraph/webinar-description__paragraph.css);
+@import url(../blocks/webinar-description/__title/webinar-description__title.css);
+@import url(../blocks/webinar-description/__image/webinar-description__image.css);
+@import url(../blocks/webinar-description/__image/webinar-description__image.css);
+
+
+@import url(../blocks/necessity/necessity.css);
+@import url(../blocks/necessity/__title/necessity__title.css);
+
+
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__cell-paragraph/table__cell-paragraph.css);
+@import url(../blocks/table/__cell-title/table__cell-title.css);
+@import url(../blocks/table/__cell/table__cell.css);
+@import url(../blocks/table/__cell-image/table__cell-image.css);

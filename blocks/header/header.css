@@ -1,0 +1,12 @@
+.header {
+    margin: 26px 0 0 0;
+    width: 1184px;
+    background-image: url('../../images/headerpic.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 479px 479px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}

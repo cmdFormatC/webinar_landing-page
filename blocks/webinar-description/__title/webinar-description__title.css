@@ -1,0 +1,8 @@
+.webinar-description__title {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#FFAC00;
+    margin: 0;
+    align-self: flex-start;
+}
