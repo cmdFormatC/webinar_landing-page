@@ -5,7 +5,7 @@
     text-align: center;
     text-decoration: none;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 35px;
     line-height: 127.9%;
     width: 612px;
     height: 116px;
@@ -18,8 +18,8 @@
 @media screen and (max-width: 767px) { 
     .form__send { 
         width: 93.75vw;
-        height: 8.4375vw;
-        font-size: 3.125vw;
+        height: 18.4375vw;
+        font-size: 5vw;
 
     } 
  

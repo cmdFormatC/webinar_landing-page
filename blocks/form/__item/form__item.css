@@ -1,6 +1,7 @@
 .form__item {
     border: 1px solid #FFAC00;
-    text-align: center;
+    text-align: left;
+    text-indent: 20px;
     font-weight: 400;
     font-size: 32px;
     line-height: 127.9%;
@@ -24,9 +25,10 @@
  @media screen and (max-width: 767px) { 
     .form__item { 
         width: 93.75vw;
-        height: 8.4375vw;
-        margin: 3.4375vw 0 0 0;
-        font-size: 3.125vw;
+        height: 14.6875vw;
+        margin: 5vw 0 0 0;
+        font-size: 5vw;
+        text-indent: 2.1875vw;
     } 
  
  }  

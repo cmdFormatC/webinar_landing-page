@@ -22,8 +22,9 @@
 
 @media screen and (max-width: 767px) { 
     .header { 
-        background-size: 73.125vw 73.125vw;
+        background-size: 50vw 50vw;
         width: 100%;
         min-height: 73.125vw;
+        background-position: bottom right;
     } 
 }  
