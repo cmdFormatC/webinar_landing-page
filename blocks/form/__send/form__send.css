@@ -9,8 +9,9 @@
     line-height: 127.9%;
     width: 612px;
     height: 116px;
-    margin: 0;
+    margin: 25px 0 25px 0;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 

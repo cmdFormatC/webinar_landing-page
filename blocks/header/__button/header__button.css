@@ -2,11 +2,12 @@
     width: 390px;
     height: 58px;
     background-color: #FFAC00;
-    margin: 71px auto 41px auto;
+    margin: 71px 0 41px 0;
     text-decoration: none;
     display: flex;
     line-height: 1.28;
     text-align: center;
+    border-radius: 5px;
 }
 
 .header__button:hover {
