@@ -24,7 +24,7 @@
  
  @media screen and (max-width: 767px) { 
     .form__item { 
-        width: 93.75vw;
+        width: 90vw;
         height: 14.6875vw;
         margin: 5vw 0 0 0;
         font-size: 5vw;
