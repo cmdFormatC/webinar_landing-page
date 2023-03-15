@@ -1,18 +1,16 @@
 .header__date {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: repeat(1, 40px);
+    grid-template-rows: repeat(1, auto);
     margin: 20px 0 0 0;
     align-items: center;
     gap: 10px;
 }
 
 @media screen and (max-width: 1279px) { 
-    .header__date  { 
-    } 
-}  
-@media screen and (max-width: 1023px) { 
-    .header__date  { 
+    .header__date  {
+        gap: 0.78125vw;
+        margin: 1.5625vw 0 0 0;
     } 
 }  
 
@@ -20,9 +18,9 @@
 
 @media screen and (max-width: 767px) { 
     .header__date { 
-        margin: 20px 0 0 3.4375vw;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: repeat(1, auto);
+        margin: 3.4375vw 0 0 3.4375vw;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(2, auto);
         gap: 2vw;
     } 
 }  

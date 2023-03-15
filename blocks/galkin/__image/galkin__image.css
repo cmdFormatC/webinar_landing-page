@@ -3,14 +3,11 @@
 }
 
 @media screen and (max-width: 1279px) { 
-    .galkin__image { 
+    .galkin__image {
+        width: 41.015625vw;
     } 
  }  
- @media screen and (max-width: 1023px) { 
-    .galkin__image { 
-    } 
- }  
- 
+
  
  @media screen and (max-width: 767px) { 
     .galkin__image { 

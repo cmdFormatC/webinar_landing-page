@@ -13,12 +13,12 @@
 
 @media screen and (max-width: 1279px) { 
     .header { 
+        width: 92.5vw;
+        margin: 2vw 0 0 0;
+        background-size: 28.5vw 28.5vw;
     } 
 }  
-@media screen and (max-width: 1023px) { 
-    .header { 
-    } 
-}  
+
 
 @media screen and (max-width: 767px) { 
     .header { 

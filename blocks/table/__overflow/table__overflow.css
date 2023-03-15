@@ -6,6 +6,13 @@
     min-height: 350px;
 }
 
+@media screen and (max-width: 1279px) { 
+    .table__overflow { 
+        margin: 1.5625vw 0 0 0;
+        min-height: 27.34375vw;
+    } 
+ 
+ }  
 
 @media screen and (max-width: 767px) { 
     .table__overflow { 

@@ -1,4 +1,4 @@
-.table__cell-paragraph {
+.about__cell-paragraph {
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
@@ -7,18 +7,17 @@
     margin: 0;
     justify-self: end;
 }
-
-
 @media screen and (max-width: 1279px) { 
-    .table__cell-paragraph {
+    .about__cell-paragraph {
         font-size: 1.5625vw;
-    } 
-}  
- 
+    }
+ }
 
 
-@media screen and (max-width: 767px) { 
-    .table__cell-paragraph { 
+
+ @media screen and (max-width: 767px) { 
+    .about__cell-paragraph {
+        margin: 5vw 0 0 0;
         font-size: 4.375vw;
-    } 
-}  
+    }
+ }

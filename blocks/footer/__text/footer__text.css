@@ -14,13 +14,15 @@
 
 
 @media screen and (max-width: 1279px) { 
-    .footer__text { 
-    } 
+    .footer__text {
+        margin: 3.4375vw 0 0.859375vw 5.234375vw;
+        font-size: 1.875vw;
+    }
+    .footer__text:nth-child(2) {
+        margin: 0 0 3.4375vw 5.234375vw;
+    }
  }  
- @media screen and (max-width: 1023px) { 
-    .footer__text { 
-    } 
- }  
+
  
  
  @media screen and (max-width: 767px) { 

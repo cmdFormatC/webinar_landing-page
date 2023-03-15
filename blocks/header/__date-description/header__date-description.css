@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 1279px) { 
     .header__date-description  { 
+        font-size: 2.1vw;
     } 
 }  
 @media screen and (max-width: 1023px) { 

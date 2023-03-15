@@ -1,0 +1,20 @@
+.about__table {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1279px) { 
+    .about__table { 
+        gap: 0.5vw;
+        
+    } 
+ 
+ } 
+
+@media screen and (max-width: 767px) { 
+    .about__table { 
+ 
+        flex-direction: column;
+    } 
+ 
+ }  

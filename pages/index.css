@@ -54,6 +54,10 @@
 
 @import url(../blocks/about/about.css);
 @import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__table/about__table.css);
+@import url(../blocks/about/__cell-paragraph/about__cell-paragraph.css);
+
+
 
 
 @import url(../blocks/form/__container/form__container.css);
@@ -74,38 +78,7 @@
 
 
 
-.about__table {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-}
 
-@media screen and (max-width: 767px) { 
-    .about__table { 
- 
-        flex-direction: column;
-    } 
- 
- }  
- .about__cell-paragraph {
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFFFFF;
-    line-height: 1.28;
-    text-align: center;
-    margin: 0;
-    justify-self: end;
-}
-
-
-
-
- @media screen and (max-width: 767px) { 
-    .about__cell-paragraph {
-        margin: 5vw 0 0 0;
-        font-size: 4.375vw;
-    }
- }
 
  body {
     background-color: #09182B;;

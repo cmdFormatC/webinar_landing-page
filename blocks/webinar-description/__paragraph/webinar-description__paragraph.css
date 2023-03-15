@@ -10,11 +10,10 @@
 
 
 @media screen and (max-width: 1279px) { 
-    .webinar-description__paragraph { 
-    } 
-}  
-@media screen and (max-width: 1023px) { 
-    .webinar-description__paragraph { 
+    .webinar-description__paragraph {
+        margin: 2.578125vw 0 0 0;
+        font-size: 1.875vw;
+        max-width: 50vw;
     } 
 }  
 
@@ -24,5 +23,7 @@
         font-size: 4.6875vw;
         text-align: center;
         margin: 7vw 3.75vw 0 3.75vw;
+        max-width: 633px;
+
     } 
 }  

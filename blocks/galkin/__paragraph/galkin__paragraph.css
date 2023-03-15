@@ -9,11 +9,10 @@
 
 
 @media screen and (max-width: 1279px) { 
-   .galkin__paragraph { 
-   } 
-}  
-@media screen and (max-width: 1023px) { 
-   .galkin__paragraph { 
+   .galkin__paragraph {
+      margin: 2.21875vw 8.125vw 0 0;
+      max-width: 583px;
+      font-size: 1.875vw;
    } 
 }  
 

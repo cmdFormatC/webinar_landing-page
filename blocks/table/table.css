@@ -1,7 +1,7 @@
 .table {
     display: flex;
     flex-direction: row;
-    margin: 74px auto 74px auto;
+    margin: 74px 20px 74px 20px;
     max-width: 1280px;
     justify-content: space-between;
     padding: 0;
@@ -10,7 +10,8 @@
 
 
 @media screen and (max-width: 1279px) { 
-    .table { 
+    .table {
+        margin: 5.78125vw 1.5625vw 5.78125vw 1.5625vw;
     } 
 }  
 @media screen and (max-width: 1023px) { 

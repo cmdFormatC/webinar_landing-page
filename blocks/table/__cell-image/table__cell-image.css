@@ -4,13 +4,11 @@
 }
 
 @media screen and (max-width: 1279px) { 
-    .table__cell-image { 
+    .table__cell-image {
+        width: 8.28125vw;
     } 
 }  
-@media screen and (max-width: 1023px) { 
-    .table__cell-image { 
-    } 
-}  
+
 
 
 @media screen and (max-width: 767px) { 
