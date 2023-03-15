@@ -5,3 +5,21 @@
     font-weight: 700;
     margin: 82px 0 0 0;
 }
+
+
+@media screen and (max-width: 1279px) { 
+    .necessity__title { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .necessity__title { 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .necessity__title { 
+        margin: 6.5625vw 0 0 0;
+        font-size: 5.625vw;
+    } 
+}  

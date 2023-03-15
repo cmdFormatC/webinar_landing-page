@@ -1,5 +1,28 @@
 .header__date {
-    display: flex;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 40px 210px 40px 310px;
+    grid-template-rows: repeat(1, 40px);
     margin: 20px 0 0 0;
+    align-items: center;
+    gap: 10px;
 }
+
+@media screen and (max-width: 1279px) { 
+    .header__date  { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .header__date  { 
+    } 
+}  
+
+
+
+@media screen and (max-width: 767px) { 
+    .header__date { 
+        margin: 20px 0 0 3.4375vw;
+        grid-template-columns: 4.57vw auto;
+        grid-template-rows: repeat(2, 4.57vw);
+        gap: 2vw;
+    } 
+}  

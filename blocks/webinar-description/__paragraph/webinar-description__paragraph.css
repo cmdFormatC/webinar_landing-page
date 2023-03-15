@@ -7,3 +7,22 @@
     line-height: 1.28;
     margin: 33px 0 0 0;
 }
+
+
+@media screen and (max-width: 1279px) { 
+    .webinar-description__paragraph { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .webinar-description__paragraph { 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .webinar-description__paragraph { 
+        font-size: 4.6875vw;
+        text-align: center;
+        margin: 7vw 3.75vw 0 3.75vw;
+    } 
+}  

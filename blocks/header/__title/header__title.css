@@ -6,3 +6,20 @@
     margin: 30px 0 0 0;
     font-weight: 700;
 }
+
+@media screen and (max-width: 1279px) { 
+    .header__title  { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .header__title  { 
+    } 
+}  
+
+@media screen and (max-width: 767px) { 
+    .header__title { 
+        max-width: 80.625vw;
+        margin: 2.5vw 0 0 3.4375vw;
+        font-size: 5.625vw;
+    } 
+}  

@@ -1,0 +1,26 @@
+.galkin__title {
+    margin: 0 52px 0 0;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FFAC00;
+    line-height: 1.28;
+
+}
+
+@media screen and (max-width: 1279px) { 
+    .galkin__title { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .galkin__title{ 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .galkin__title { 
+        font-size: 5.625vw;
+        margin: 7.1875vw 0 5.625vw 0;
+        text-align: center;
+    } 
+}  

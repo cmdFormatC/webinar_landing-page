@@ -3,9 +3,24 @@
     font-size: 27px;
     letter-spacing: 1px;
     line-height: 1;
-    margin: 0 0 0 16px;
+    margin: 0;
+    max-width: 305px;
 }
 
-.header__date-description {
-    margin-right: 20px;
-}
+@media screen and (max-width: 1279px) { 
+    .header__date-description  { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .header__date-description  { 
+    } 
+}  
+
+
+
+@media screen and (max-width: 767px) { 
+    .header__date-description { 
+        font-size: 3.6vw;
+        margin: 0 1vw 0 1vw;
+    } 
+}  

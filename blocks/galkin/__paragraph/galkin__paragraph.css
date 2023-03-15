@@ -1,0 +1,30 @@
+.galkin__paragraph {
+   font-weight: 400; 
+   line-height: 1.53;
+   text-align: left;
+   font-size: 24px;
+   max-width: 583px;
+   margin: 31px 104px 0 0;
+}
+
+
+@media screen and (max-width: 1279px) { 
+   .galkin__paragraph { 
+   } 
+}  
+@media screen and (max-width: 1023px) { 
+   .galkin__paragraph { 
+   } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+   .galkin__paragraph { 
+      font-size: 4.6875vw;
+      margin: 0;
+      line-height: 1.15;
+      max-width: 95vw;
+      margin: 0 0 4.375vw 0;
+      text-align: center;
+   } 
+}  

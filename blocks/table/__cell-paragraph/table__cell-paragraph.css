@@ -3,7 +3,24 @@
     font-size: 20px;
     color: #FFFFFF;
     line-height: 1.28;
-    width: 381px;
     text-align: center;
-    margin: 14px 0 0 0;
+    margin: 0;
+    justify-self: end;
 }
+
+
+@media screen and (max-width: 1279px) { 
+    .table__cell-paragraph { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .table__cell-paragraph { 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .table__cell-paragraph { 
+        font-size: 4.375vw;
+    } 
+}  

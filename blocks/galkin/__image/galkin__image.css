@@ -1,0 +1,22 @@
+.galkin__image {
+    width: 525px;
+}
+
+@media screen and (max-width: 1279px) { 
+    .galkin__image { 
+    } 
+ }  
+ @media screen and (max-width: 1023px) { 
+    .galkin__image { 
+    } 
+ }  
+ 
+ 
+ @media screen and (max-width: 767px) { 
+    .galkin__image { 
+        width: 24.375vw;
+        border-radius: 50%;
+        border: 2px solid #FFAC00;
+        margin: 0 0 4.375vw 0;
+    } 
+ }  

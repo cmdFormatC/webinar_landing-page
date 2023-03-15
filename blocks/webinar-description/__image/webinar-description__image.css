@@ -2,3 +2,22 @@
     width: 512px;
     margin: 29px 32px 35px 36px;
 }
+
+
+
+@media screen and (max-width: 1279px) { 
+    .webinar-description__image { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .webinar-description__image { 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .webinar-description__image { 
+        width: 21.875vw;
+        margin: 1.875vw 0 0 0;
+    } 
+}  

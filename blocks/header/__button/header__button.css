@@ -5,7 +5,6 @@
     margin: 71px auto 41px auto;
     text-decoration: none;
     display: flex;
-    font-size: 36px;
     line-height: 1.28;
     text-align: center;
 }
@@ -13,3 +12,22 @@
 .header__button:hover {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1279px) { 
+    .header__button { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .header__button { 
+    } 
+}  
+
+@media screen and (max-width: 767px) { 
+    .header__button { 
+        width: 36.5625vw;
+        height: 5.3125vw;
+        font-size: 3.75vw;
+        margin: 6.415625vw 0 6vw 3.75vw;
+        text-align: left;
+    } 
+}  

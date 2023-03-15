@@ -4,8 +4,30 @@
     align-items: center;
     justify-content: center;
     margin: 0 55px 0 0;
+    gap: 21px 0;
+    z-index: 5;
 }
 
 .table__cell:nth-child(3) {
     margin: 0;
 }
+
+@media screen and (max-width: 1279px) { 
+    .table__cell { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .table__cell { 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .table__cell { 
+        margin: 6.5625vw 7.96875vw 0 7.96875vw;
+        gap: 1.875vw 0;
+    } 
+    .table__cell:nth-child(3) {
+        margin: 6.5625vw 7.96875vw 0 7.96875vw;
+    }
+}  

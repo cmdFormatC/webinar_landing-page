@@ -4,5 +4,21 @@
     line-height: 1.28;
     color: #FFAC00;
     text-align: center;
-    margin: 21px 0 0 0;
+    margin: 0;
 }
+
+@media screen and (max-width: 1279px) { 
+    .table__cell-title { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .table__cell-title { 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .table__cell-title { 
+        font-size: 5vw;
+    } 
+}  

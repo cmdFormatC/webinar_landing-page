@@ -1,0 +1,21 @@
+.form__image {
+    width: 501px;
+    margin: 0 0 0 72px;
+}
+@media screen and (max-width: 1279px) { 
+    .form__image { 
+    } 
+ }  
+ @media screen and (max-width: 1023px) { 
+    .form__image { 
+    } 
+ }  
+ 
+ 
+ @media screen and (max-width: 767px) { 
+    .form__image { 
+        width: 21.875vw;
+        margin: 0;
+    } 
+ 
+ }  

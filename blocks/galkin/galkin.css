@@ -1,0 +1,24 @@
+.galkin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 1280px;
+    
+}
+
+@media screen and (max-width: 1279px) { 
+    .galkin { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .galkin { 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .galkin { 
+        flex-direction: column;
+    } 
+}  

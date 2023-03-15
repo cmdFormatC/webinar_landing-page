@@ -1,0 +1,25 @@
+.form__link {
+    cursor: pointer;
+    width: 612px;
+    height: 116px;
+    margin: 29px 0 0 0;
+}
+
+@media screen and (max-width: 1279px) { 
+    .form__link { 
+    } 
+ }  
+ @media screen and (max-width: 1023px) { 
+    .form__link { 
+    } 
+ }  
+ 
+ 
+ @media screen and (max-width: 767px) { 
+    .form__link { 
+        width: 93.75vw;
+        height: 8.4375vw;
+        margin: 3.4375vw 0 0 0;
+    } 
+ 
+ }  

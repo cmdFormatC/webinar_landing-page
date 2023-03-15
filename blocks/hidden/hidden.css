@@ -1,0 +1,6 @@
+@media screen and (max-width: 767px) { 
+    .hidden{ 
+        font-size: 0;
+        opacity: 0;
+    } 
+}  

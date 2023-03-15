@@ -1,8 +1,27 @@
 .table {
     display: flex;
     flex-direction: row;
-    margin: 74px auto 65px auto;
+    margin: 74px auto 74px auto;
     max-width: 1280px;
     justify-content: space-between;
     padding: 0;
 }
+
+
+
+@media screen and (max-width: 1279px) { 
+    .table { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .table { 
+    } 
+}  
+
+
+@media screen and (max-width: 767px) { 
+    .table { 
+        flex-direction: column;
+        margin: 0 auto 6.5625vw auto;
+    } 
+}  

@@ -1,0 +1,32 @@
+.form__item {
+    border: 1px solid #FFAC00;
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 127.9%;
+    color: #09182B;
+    margin: 23px 0 0 0;
+    width: 612px;
+    height: 76px;
+}
+
+
+@media screen and (max-width: 1279px) { 
+    .form__item { 
+    } 
+ }  
+ @media screen and (max-width: 1023px) { 
+    .form__item { 
+    } 
+ }  
+ 
+ 
+ @media screen and (max-width: 767px) { 
+    .form__item { 
+        width: 93.75vw;
+        height: 8.4375vw;
+        margin: 3.4375vw 0 0 0;
+        font-size: 3.125vw;
+    } 
+ 
+ }  

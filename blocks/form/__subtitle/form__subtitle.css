@@ -1,0 +1,26 @@
+.form__subtitle {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 127.9%;
+    color: #09182B;
+    text-align: center;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 1279px) { 
+    .form__subtitle { 
+    } 
+ }  
+ @media screen and (max-width: 1023px) { 
+    .form__subtitle { 
+    } 
+ }  
+ 
+ 
+ @media screen and (max-width: 767px) { 
+    .form__subtitle { 
+        font-size: 5.625vw;
+    } 
+ 
+ }  

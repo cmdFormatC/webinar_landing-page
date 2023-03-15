@@ -2,3 +2,21 @@
     width: 138px;
     margin: 26px 0 0 0;
 }
+
+@media screen and (max-width: 1279px) { 
+    .header__logo { 
+    } 
+}  
+@media screen and (max-width: 1023px) { 
+    .header__logo { 
+    } 
+}  
+
+
+
+@media screen and (max-width: 767px) { 
+    .header__logo { 
+        width: 30vw;
+        margin: 4.0625vw 0 0 3.4375vw;
+    } 
+}  
